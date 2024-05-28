@@ -2,13 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: #333;
-    /* Dark gray text */
     line-height: 1.5;
     margin: 40px;
 }
 
-h1,
-h2 {
+h1, h2 {
     margin-top: 0;
     font-weight: normal;
 }
@@ -34,7 +32,6 @@ header p {
     margin-top: 10px;
     font-size: 14px;
     color: #666;
-    /* Light gray for contact info */
 }
 
 section {
@@ -47,7 +44,6 @@ section {
 
 .education {
     border-bottom: 1px solid #ccc;
-    /* Light gray border */
     padding-bottom: 20px;
 }
 
@@ -81,6 +77,23 @@ section {
     display: inline-block;
     height: 10px;
     background-color: #4CAF50;
-    /* Green progress bar */
     border-radius: 5px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
